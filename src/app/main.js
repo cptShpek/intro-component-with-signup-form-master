@@ -70,7 +70,7 @@ var app = {
 
         if ( isOk == 0 ) {
 
-            alert( "You are our subscriver now!" )
+            alert( "Check your email!" )
             app.hiddeAll()
 
         }
