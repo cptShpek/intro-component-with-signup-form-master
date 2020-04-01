@@ -247,6 +247,12 @@ footer {
         padding: 0 4em;
 
     }
+    
+    #left > h1 {
+        
+        font-size: 1.8em;
+          
+    }
 
 }
 
@@ -295,6 +301,12 @@ footer {
         padding: 0 4em;
 
     }
+    
+    #left > h1 {
+        
+        font-size: 1.8em;
+          
+    }
 
 }
 
@@ -342,6 +354,12 @@ footer {
         height: 6em;
         padding: 0 4em;
 
+    }
+    
+    #left > h1 {
+        
+        font-size: 1.8em;
+          
     }
 
 }
