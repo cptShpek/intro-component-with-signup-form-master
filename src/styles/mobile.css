@@ -1,0 +1,202 @@
+/* main container */
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+
+}
+
+body, html {
+
+    height: 90%;
+
+}
+
+/* wrapper styles */
+
+#wrapper {
+    
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 10%;
+    width: 80%;
+    min-height: 90%;
+    padding-left: 5%;
+
+}
+
+/* text-box (letf) styles */
+
+#left {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+
+}
+
+#left > p {
+    
+    margin-top: 1em;
+    padding-right: 1em;
+
+}
+
+#left > h1 {
+
+    font-weight: bolder;
+    font-size: 2.5em;
+
+}
+
+/* inputs-box (right) styles */
+
+#right {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 3em;
+    width: 50%;
+
+}
+
+    /*top header*/
+
+#right_header {
+
+    background: hsl(248, 32%, 49%);
+    height: 3em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5em;
+    box-shadow: 0 .3em .3em rgba(0, 0, 0, 0.5);
+
+}
+
+.grey_text {
+
+    color: #d8b9c3;
+
+}
+
+    /* inputs */
+
+#inputs {
+
+    width: 100%;
+    height: 100%;
+    padding: 2em 2em;
+    background: #fff;
+    margin-top: 1.8em;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#inputs > div {
+
+    width: 100%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    height: 10%;
+    border: 2px solid hsl(0, 100%, 74%);
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+#inputs :nth-last-child(2) {
+
+    border: none;
+
+}
+
+input {
+
+    width: 90%;
+    height: 80%;
+    outline: none;
+    border: none;
+    padding-left: 0.5em;
+
+}
+
+#inputs > div ~ p:not(.lastP) {
+
+    padding: 0;
+    margin-left: auto;
+    color: hsl(0, 100%, 74%) ;
+
+}
+
+button {
+
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 1.5em;
+    border: none;
+    border-radius: .5em;
+    cursor: pointer;
+    background: hsl(154, 59%, 51%);
+
+}
+
+button:active {
+
+    outline: none;
+    border: none;
+    background: hsl(154, 35%, 51%);
+    box-shadow: 0 .3em .3em rgba(66, 138, 107, 1);
+
+}
+
+button:focus {
+
+    outline: none;
+    border: none;
+
+}
+
+#inputs:last-child {
+
+    text-align: center;
+    color: hsl(246, 25%, 77%);
+    font-size: 0.7em;
+
+}
+
+.red_text {
+
+    color: hsl(0, 100%, 74%);
+
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    margin-top: 5.3em;
+    background-color: gray;
+    flex: 0 0 auto;
+
+}

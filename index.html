@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/styles/styles.css">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+</head>
+<body>
+
+  <div id="wrapper">
+
+    <div id="left">
+
+      <h1>Learn to code by <br> watching others</h1>
+
+      <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable.</p>
+
+    </div>
+
+    <div id="right">
+
+      <div id="right_header">
+        <p><strong>Try it free 7 days</strong> <span class="grey_text">then $20/mo. thereafter</span></p>
+      </div>
+
+      <div id="inputs">
+
+        <div>
+          <input id="name" type="text" placeholder="First Name">
+          <img src="./images/icon-error.svg" class="name" alt="error">
+        </div>
+
+        <p class="name">First Name cannot be empty</p>
+
+        <div>
+          <input id="lastName" type="text" placeholder="Last Name">
+          <img src="./images/icon-error.svg" class="lastName" alt="error">
+        </div>
+
+        <p class="lastName">Last Name cannot be empty</p>
+
+        <div>
+          <input id="email" type="text" placeholder="Email Address">
+          <img src="./images/icon-error.svg" class="email" alt="error">
+        </div>
+
+        <p class="email">Looks like this not an email</p>
+
+        <div>
+          <input id="pass" type="password" placeholder="Password">
+          <img src="./images/icon-error.svg" class="pass" alt="error">
+        </div>
+
+        <p class="pass">Password cannot be empty</p>
+
+        <div>
+          <button id="btn">Claim your free trial</button>
+        </div>
+        
+        <p class="lastP">By clicking the button, you are agreeing to our <span class="red_text">Terms and Services</span> </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <footer>
+
+    <p>
+      Coded by <a href="https://github.com/cptShpek/">CptShpek</a>.
+    </p>
+
+  </footer>
+
+  <script src="./src/app/main.js"></script>
+
+</body>
+</html>
